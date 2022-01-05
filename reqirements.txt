@@ -1,0 +1,17 @@
+numpy
+pandas
+seaborn
+tensorflow
+keras.preprocessing
+keras==2.2.4
+matplotlib
+sklearn
+scipy
+wandb
+
+
+# To activate venv : (Python version = "Python 3.8.9")
+# /Library/Developer/CommandLineTools/usr/bin/python3 -m venv plaidml-venv
+# source plaidml-venv/bin/activate
+
+# /Library/Developer/CommandLineTools/usr/bin/python3 -m pip install -U -r reqirements.txt
