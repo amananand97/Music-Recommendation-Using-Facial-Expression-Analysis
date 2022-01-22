@@ -21,9 +21,9 @@ from random import shuffle
 import joblib
 
 classes = 4
-username = "m28deb7yfokzmvl1hilcw4erz"
-SPOTIPY_CLIENT_ID="c74c87835bc34dabb7f3dfce7ff17e9d"
-SPOTIPY_CLIENT_SECRET="242d76ea3fb541fab3855446d0e4726e"
+username = "" #Enter your Username 
+SPOTIPY_CLIENT_ID="" # Client ID
+SPOTIPY_CLIENT_SECRET="" # Client Secret 
 SPOTIPY_REDIRECT_URI="https://www.google.com"
 scope = "user-read-private user-read-playback-state user-modify-playback-state app-remote-control"
 
@@ -121,7 +121,7 @@ def crop_square(img, size, interpolation=cv2.INTER_AREA):
 
     return resized
 
-face_cascade = cv2.CascadeClassifier('/Users/aman/Project/MRFEA-code/HaarCascaseFace/Face_Default.xml')
+face_cascade = cv2.CascadeClassifier('/Users/aman/Project/MRFEA-code/HaarCascaseFace/Face_Default.xml') #Update the Path for HaarCascaseFace Filter
 
 def adjusted_detect_face(img):
      
